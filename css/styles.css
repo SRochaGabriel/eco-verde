@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -9,4 +11,20 @@ body{
 }
 header{
    background-color:  #526448;
+    
+  
 }
+footer{
+    background-color: #526448;
+}
+nav{
+    display: flex;
+    margin-left: 50px;
+    gap: 50px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
