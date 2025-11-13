@@ -2,7 +2,6 @@
 #ecoverde {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 }
 
 /* Altura para as sub-seções de ecoverde */
@@ -11,6 +10,7 @@
     align-content: center;
 }
 
+/* ============== Seção de introdução ============== */
 #ecoverde-intro {
     display: flex;
     flex-direction: column;
@@ -29,11 +29,10 @@
     width: 100%;
 }
 
-/* Seção de pilares de ecoverde */
+/* ============== Seção de pilares de ecoverde ============== */
 #ecoverde-pilares {
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
 }
 
 /* Subtítulo da seção pilares */
@@ -57,22 +56,26 @@
     color: #314028;
 }
 
-#ecoverde-recursos h2 {
+/* ============== Títulos das seções de recursos, inclusão e preservação ============== */
+#ecoverde-recursos h2, #ecoverde-inclusao h2, #ecoverde-preservacao h2 {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
-/* Definições para as divs com classe 'ecoverde-display' */
+/* ============== Definições para as divs com classe 'ecoverde-display' ============== */
 .ecoverde-display {
     display: flex;
     justify-content: space-around;
     gap: 1rem;
 }
 
+/* Imagens de ecoverde-display */
 .ecoverde-display img {
     width: 25rem;
     border-radius: 10px;
 }
 
+/* Parágrafo de ecoverde-display */
 .ecoverde-display p {
     align-content: center;
 }
