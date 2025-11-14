@@ -29,6 +29,7 @@
 
 /* Definições para o modal */
 .modal {
+    display: none;
     /* Deixando o modal fixo e ocupando 100% do espaço da tela */
     position: fixed;
     top: 0;
