@@ -11,7 +11,7 @@ const odsButtons = document.querySelectorAll('.ods-display img');
 let odsData;
 
 // Buscando as informações sobre cada ODS do arquivo JSON
-fetch('../dados/ods.json', {method: 'GET'})
+fetch('/dados/ods.json', {method: 'GET'})
 .then(res => res.json())
 .then(data => odsData = data);
 
